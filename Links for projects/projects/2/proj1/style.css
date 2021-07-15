@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    background: linear-gradient(to right,#01B6E5 0%, #0161ED 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10vw;
+    font-family: 'Arial Black', 'serif';
+    text-transform: uppercase;
+}

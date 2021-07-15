@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+*{
+    box-sizing: border-box;
+}
+.btn{
+    width: 160px;
+    height: 50px;
+    border: none;
+    background: #fff;
+    border: 2px solid #ff3b63;
+    margin: 10px;
+}
+.btn a{
+    text-decoration: none;
+    position: relative;
+    outline: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.border{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 160px;
+    height: 50px;
+    border: 2px solid #3641b7;
+    transition: .3s;
+}
+.btn:hover .border{
+    width: 170px;
+    height: 60px;
+}
+.box{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 2px solid #3641b7;
+    border-right: transparent;
+    border-bottom: transparent;
+    transition: .3s;
+}
+.left-corner{
+    top: -2px;
+    left: -2px;
+}
+.right-corner{
+    bottom: -2px;
+    right: -2px;
+    transform: rotate(180deg);
+}
+.btn:hover .border .left-corner{
+    transform: translate(-5px,-5px);
+}
+.btn:hover .border .right-corner{
+    transform: translate(5px, 5px) rotate(180deg);
+}
+#outer1 {
+    width: 100%;
+    text-align: center;
+    padding-top: 4px;
+}
+#outer1 .inner {
+    display: inline-block;
+}
+
+#outer2 {
+    width: 100%;
+    text-align: center;
+    padding-top: 4px;
+}
+#outer2 .inner {
+    display: inline-block;
+}
+
+#outer3 {
+    width: 100%;
+    text-align: center;
+    padding-top: 4px;
+}
+#outer3 .inner {
+    display: inline-block;
+    
+}
+
+#outer4 {
+    width: 100%;
+    text-align: center;
+    padding-top: 4px;
+}
+#outer4 .inner {
+    display: inline-block;
+    
+}
+
+#outer5 {
+    width: 100%;
+    text-align: center;
+    padding-top: 4px;
+}
+#outer5 .inner {
+    display: inline-block;
+    
+}

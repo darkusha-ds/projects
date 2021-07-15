@@ -1,0 +1,18 @@
+.border{
+    position: relative;
+    width: 290px;
+    height: 380px;
+    background: linear-gradient(135deg, #FF57B9 0%,#A704FD 100%);
+    display: grid;
+    place-items: center;
+    border-radius: 6px;
+}
+.content{
+    position: absolute;
+    width: 280px;
+    height: 370px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 1rem;
+}
